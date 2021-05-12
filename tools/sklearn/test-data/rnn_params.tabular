@@ -1,0 +1,109 @@
+	Parameter	Value
+@	amsgrad	amsgrad: False
+@	batch_size	batch_size: 128
+@	beta_1	beta_1: 0.9
+@	beta_2	beta_2: 0.999
+@	callbacks	callbacks: [{'callback_selection': {'callback_type': 'None'}}]
+@	config	config: {'name': 'sequential_1', 'layers': [{'class_name': 'Embedding', 'config': {'name': 'embedding_1', 't
+@	decay	decay: 0.0
+@	epochs	epochs: 2
+@	layers_0_Embedding	layers_0_Embedding: {'class_name': 'Embedding', 'config': {'name': 'embedding_1', 'trainable': True, 'batch_input_shape'
+@	layers_1_LSTM	layers_1_LSTM: {'class_name': 'LSTM', 'config': {'name': 'lstm_1', 'trainable': True, 'dtype': 'float32', 'return_s
+@	layers_2_Dense	layers_2_Dense: {'class_name': 'Dense', 'config': {'name': 'dense_1', 'trainable': True, 'dtype': 'float32', 'units'
+@	loss	loss: 'binary_crossentropy'
+@	lr	lr: 0.001
+@	metrics	metrics: ['acc']
+@	model_type	model_type: 'sequential'
+@	momentum	momentum: None
+@	nesterov	nesterov: None
+@	optimizer	optimizer: 'adam'
+@	rho	rho: None
+@	schedule_decay	schedule_decay: None
+@	seed	seed: 42
+@	steps_per_epoch	steps_per_epoch: None
+@	validation_fraction	validation_fraction: 0.1
+@	validation_steps	validation_steps: None
+@	verbose	verbose: 0
+*	layers_0_Embedding__class_name	layers_0_Embedding__class_name: 'Embedding'
+@	layers_0_Embedding__config	layers_0_Embedding__config: {'name': 'embedding_1', 'trainable': True, 'batch_input_shape': [None, 500], 'dtype': 'float32', 'in
+@	layers_0_Embedding__config__activity_regularizer	layers_0_Embedding__config__activity_regularizer: None
+@	layers_0_Embedding__config__batch_input_shape	layers_0_Embedding__config__batch_input_shape: [None, 500]
+@	layers_0_Embedding__config__dtype	layers_0_Embedding__config__dtype: 'float32'
+@	layers_0_Embedding__config__embeddings_constraint	layers_0_Embedding__config__embeddings_constraint: None
+@	layers_0_Embedding__config__embeddings_initializer	layers_0_Embedding__config__embeddings_initializer: {'class_name': 'RandomUniform', 'config': {'minval': -0.05, 'maxval': 0.05, 'seed': None}}
+*	layers_0_Embedding__config__embeddings_initializer__class_name	layers_0_Embedding__config__embeddings_initializer__class_name: 'RandomUniform'
+@	layers_0_Embedding__config__embeddings_initializer__config	layers_0_Embedding__config__embeddings_initializer__config: {'minval': -0.05, 'maxval': 0.05, 'seed': None}
+@	layers_0_Embedding__config__embeddings_initializer__config__maxval	layers_0_Embedding__config__embeddings_initializer__config__maxval: 0.05
+@	layers_0_Embedding__config__embeddings_initializer__config__minval	layers_0_Embedding__config__embeddings_initializer__config__minval: -0.05
+@	layers_0_Embedding__config__embeddings_initializer__config__seed	layers_0_Embedding__config__embeddings_initializer__config__seed: None
+@	layers_0_Embedding__config__embeddings_regularizer	layers_0_Embedding__config__embeddings_regularizer: None
+@	layers_0_Embedding__config__input_dim	layers_0_Embedding__config__input_dim: 10000
+@	layers_0_Embedding__config__input_length	layers_0_Embedding__config__input_length: None
+@	layers_0_Embedding__config__mask_zero	layers_0_Embedding__config__mask_zero: False
+*	layers_0_Embedding__config__name	layers_0_Embedding__config__name: 'embedding_1'
+@	layers_0_Embedding__config__output_dim	layers_0_Embedding__config__output_dim: 32
+@	layers_0_Embedding__config__trainable	layers_0_Embedding__config__trainable: True
+*	layers_1_LSTM__class_name	layers_1_LSTM__class_name: 'LSTM'
+@	layers_1_LSTM__config	layers_1_LSTM__config: {'name': 'lstm_1', 'trainable': True, 'dtype': 'float32', 'return_sequences': False, 'return_state':
+@	layers_1_LSTM__config__activation	layers_1_LSTM__config__activation: 'tanh'
+@	layers_1_LSTM__config__activity_regularizer	layers_1_LSTM__config__activity_regularizer: None
+@	layers_1_LSTM__config__bias_constraint	layers_1_LSTM__config__bias_constraint: None
+@	layers_1_LSTM__config__bias_initializer	layers_1_LSTM__config__bias_initializer: {'class_name': 'Zeros', 'config': {}}
+*	layers_1_LSTM__config__bias_initializer__class_name	layers_1_LSTM__config__bias_initializer__class_name: 'Zeros'
+@	layers_1_LSTM__config__bias_initializer__config	layers_1_LSTM__config__bias_initializer__config: {}
+@	layers_1_LSTM__config__bias_regularizer	layers_1_LSTM__config__bias_regularizer: None
+@	layers_1_LSTM__config__dropout	layers_1_LSTM__config__dropout: 0.0
+@	layers_1_LSTM__config__dtype	layers_1_LSTM__config__dtype: 'float32'
+@	layers_1_LSTM__config__go_backwards	layers_1_LSTM__config__go_backwards: False
+@	layers_1_LSTM__config__implementation	layers_1_LSTM__config__implementation: 2
+@	layers_1_LSTM__config__kernel_constraint	layers_1_LSTM__config__kernel_constraint: None
+@	layers_1_LSTM__config__kernel_initializer	layers_1_LSTM__config__kernel_initializer: {'class_name': 'VarianceScaling', 'config': {'scale': 1.0, 'mode': 'fan_avg', 'distribution': 'unifo
+*	layers_1_LSTM__config__kernel_initializer__class_name	layers_1_LSTM__config__kernel_initializer__class_name: 'VarianceScaling'
+@	layers_1_LSTM__config__kernel_initializer__config	layers_1_LSTM__config__kernel_initializer__config: {'scale': 1.0, 'mode': 'fan_avg', 'distribution': 'uniform', 'seed': None}
+@	layers_1_LSTM__config__kernel_initializer__config__distribution	layers_1_LSTM__config__kernel_initializer__config__distribution: 'uniform'
+@	layers_1_LSTM__config__kernel_initializer__config__mode	layers_1_LSTM__config__kernel_initializer__config__mode: 'fan_avg'
+@	layers_1_LSTM__config__kernel_initializer__config__scale	layers_1_LSTM__config__kernel_initializer__config__scale: 1.0
+@	layers_1_LSTM__config__kernel_initializer__config__seed	layers_1_LSTM__config__kernel_initializer__config__seed: None
+@	layers_1_LSTM__config__kernel_regularizer	layers_1_LSTM__config__kernel_regularizer: None
+*	layers_1_LSTM__config__name	layers_1_LSTM__config__name: 'lstm_1'
+@	layers_1_LSTM__config__recurrent_activation	layers_1_LSTM__config__recurrent_activation: 'sigmoid'
+@	layers_1_LSTM__config__recurrent_constraint	layers_1_LSTM__config__recurrent_constraint: None
+@	layers_1_LSTM__config__recurrent_dropout	layers_1_LSTM__config__recurrent_dropout: 0.0
+@	layers_1_LSTM__config__recurrent_initializer	layers_1_LSTM__config__recurrent_initializer: {'class_name': 'Orthogonal', 'config': {'gain': 1.0, 'seed': None}}
+*	layers_1_LSTM__config__recurrent_initializer__class_name	layers_1_LSTM__config__recurrent_initializer__class_name: 'Orthogonal'
+@	layers_1_LSTM__config__recurrent_initializer__config	layers_1_LSTM__config__recurrent_initializer__config: {'gain': 1.0, 'seed': None}
+@	layers_1_LSTM__config__recurrent_initializer__config__gain	layers_1_LSTM__config__recurrent_initializer__config__gain: 1.0
+@	layers_1_LSTM__config__recurrent_initializer__config__seed	layers_1_LSTM__config__recurrent_initializer__config__seed: None
+@	layers_1_LSTM__config__recurrent_regularizer	layers_1_LSTM__config__recurrent_regularizer: None
+@	layers_1_LSTM__config__return_sequences	layers_1_LSTM__config__return_sequences: False
+@	layers_1_LSTM__config__return_state	layers_1_LSTM__config__return_state: False
+@	layers_1_LSTM__config__stateful	layers_1_LSTM__config__stateful: False
+@	layers_1_LSTM__config__trainable	layers_1_LSTM__config__trainable: True
+@	layers_1_LSTM__config__unit_forget_bias	layers_1_LSTM__config__unit_forget_bias: True
+@	layers_1_LSTM__config__units	layers_1_LSTM__config__units: 100
+@	layers_1_LSTM__config__unroll	layers_1_LSTM__config__unroll: False
+@	layers_1_LSTM__config__use_bias	layers_1_LSTM__config__use_bias: True
+*	layers_2_Dense__class_name	layers_2_Dense__class_name: 'Dense'
+@	layers_2_Dense__config	layers_2_Dense__config: {'name': 'dense_1', 'trainable': True, 'dtype': 'float32', 'units': 1, 'activation': 'sigmoid', 'use
+@	layers_2_Dense__config__activation	layers_2_Dense__config__activation: 'sigmoid'
+@	layers_2_Dense__config__activity_regularizer	layers_2_Dense__config__activity_regularizer: None
+@	layers_2_Dense__config__bias_constraint	layers_2_Dense__config__bias_constraint: None
+@	layers_2_Dense__config__bias_initializer	layers_2_Dense__config__bias_initializer: {'class_name': 'Zeros', 'config': {}}
+*	layers_2_Dense__config__bias_initializer__class_name	layers_2_Dense__config__bias_initializer__class_name: 'Zeros'
+@	layers_2_Dense__config__bias_initializer__config	layers_2_Dense__config__bias_initializer__config: {}
+@	layers_2_Dense__config__bias_regularizer	layers_2_Dense__config__bias_regularizer: None
+@	layers_2_Dense__config__dtype	layers_2_Dense__config__dtype: 'float32'
+@	layers_2_Dense__config__kernel_constraint	layers_2_Dense__config__kernel_constraint: None
+@	layers_2_Dense__config__kernel_initializer	layers_2_Dense__config__kernel_initializer: {'class_name': 'VarianceScaling', 'config': {'scale': 1.0, 'mode': 'fan_avg', 'distribution': 'unifo
+*	layers_2_Dense__config__kernel_initializer__class_name	layers_2_Dense__config__kernel_initializer__class_name: 'VarianceScaling'
+@	layers_2_Dense__config__kernel_initializer__config	layers_2_Dense__config__kernel_initializer__config: {'scale': 1.0, 'mode': 'fan_avg', 'distribution': 'uniform', 'seed': None}
+@	layers_2_Dense__config__kernel_initializer__config__distribution	layers_2_Dense__config__kernel_initializer__config__distribution: 'uniform'
+@	layers_2_Dense__config__kernel_initializer__config__mode	layers_2_Dense__config__kernel_initializer__config__mode: 'fan_avg'
+@	layers_2_Dense__config__kernel_initializer__config__scale	layers_2_Dense__config__kernel_initializer__config__scale: 1.0
+@	layers_2_Dense__config__kernel_initializer__config__seed	layers_2_Dense__config__kernel_initializer__config__seed: None
+@	layers_2_Dense__config__kernel_regularizer	layers_2_Dense__config__kernel_regularizer: None
+*	layers_2_Dense__config__name	layers_2_Dense__config__name: 'dense_1'
+@	layers_2_Dense__config__trainable	layers_2_Dense__config__trainable: True
+@	layers_2_Dense__config__units	layers_2_Dense__config__units: 1
+@	layers_2_Dense__config__use_bias	layers_2_Dense__config__use_bias: True
+	Note:	@, params eligible for search in searchcv tool.

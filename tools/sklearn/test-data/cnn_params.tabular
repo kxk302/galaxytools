@@ -1,0 +1,141 @@
+	Parameter	Value
+@	amsgrad	amsgrad: False
+@	batch_size	batch_size: 500
+@	beta_1	beta_1: 0.9
+@	beta_2	beta_2: 0.999
+@	callbacks	callbacks: [{'callback_selection': {'callback_type': 'None'}}]
+@	config	config: {'name': 'sequential_1', 'layers': [{'class_name': 'Reshape', 'config': {'name': 'reshape_1', 'train
+@	decay	decay: 0.0
+@	epochs	epochs: 10
+@	layers_0_Reshape	layers_0_Reshape: {'class_name': 'Reshape', 'config': {'name': 'reshape_1', 'trainable': True, 'batch_input_shape': [N
+@	layers_1_Conv2D	layers_1_Conv2D: {'class_name': 'Conv2D', 'config': {'name': 'conv2d_1', 'trainable': True, 'dtype': 'float32', 'filt
+@	layers_2_MaxPooling2D	layers_2_MaxPooling2D: {'class_name': 'MaxPooling2D', 'config': {'name': 'max_pooling2d_1', 'trainable': True, 'dtype': 'fl
+@	layers_3_Conv2D	layers_3_Conv2D: {'class_name': 'Conv2D', 'config': {'name': 'conv2d_2', 'trainable': True, 'dtype': 'float32', 'filt
+@	layers_4_MaxPooling2D	layers_4_MaxPooling2D: {'class_name': 'MaxPooling2D', 'config': {'name': 'max_pooling2d_2', 'trainable': True, 'dtype': 'fl
+@	layers_5_Flatten	layers_5_Flatten: {'class_name': 'Flatten', 'config': {'name': 'flatten_1', 'trainable': True, 'dtype': 'float32', 'da
+@	layers_6_Dense	layers_6_Dense: {'class_name': 'Dense', 'config': {'name': 'dense_1', 'trainable': True, 'dtype': 'float32', 'units'
+@	loss	loss: 'categorical_crossentropy'
+@	lr	lr: 0.001
+@	metrics	metrics: ['acc']
+@	model_type	model_type: 'sequential'
+@	momentum	momentum: None
+@	nesterov	nesterov: None
+@	optimizer	optimizer: 'adam'
+@	rho	rho: None
+@	schedule_decay	schedule_decay: None
+@	seed	seed: 42
+@	steps_per_epoch	steps_per_epoch: None
+@	validation_fraction	validation_fraction: 0.1
+@	validation_steps	validation_steps: None
+@	verbose	verbose: 0
+*	layers_0_Reshape__class_name	layers_0_Reshape__class_name: 'Reshape'
+@	layers_0_Reshape__config	layers_0_Reshape__config: {'name': 'reshape_1', 'trainable': True, 'batch_input_shape': [None, 784], 'dtype': 'float32', 'targ
+@	layers_0_Reshape__config__batch_input_shape	layers_0_Reshape__config__batch_input_shape: [None, 784]
+@	layers_0_Reshape__config__dtype	layers_0_Reshape__config__dtype: 'float32'
+*	layers_0_Reshape__config__name	layers_0_Reshape__config__name: 'reshape_1'
+@	layers_0_Reshape__config__target_shape	layers_0_Reshape__config__target_shape: [28, 28, 1]
+@	layers_0_Reshape__config__trainable	layers_0_Reshape__config__trainable: True
+*	layers_1_Conv2D__class_name	layers_1_Conv2D__class_name: 'Conv2D'
+@	layers_1_Conv2D__config	layers_1_Conv2D__config: {'name': 'conv2d_1', 'trainable': True, 'dtype': 'float32', 'filters': 64, 'kernel_size': [3, 3], 's
+@	layers_1_Conv2D__config__activation	layers_1_Conv2D__config__activation: 'relu'
+@	layers_1_Conv2D__config__activity_regularizer	layers_1_Conv2D__config__activity_regularizer: None
+@	layers_1_Conv2D__config__bias_constraint	layers_1_Conv2D__config__bias_constraint: None
+@	layers_1_Conv2D__config__bias_initializer	layers_1_Conv2D__config__bias_initializer: {'class_name': 'Zeros', 'config': {}}
+*	layers_1_Conv2D__config__bias_initializer__class_name	layers_1_Conv2D__config__bias_initializer__class_name: 'Zeros'
+@	layers_1_Conv2D__config__bias_initializer__config	layers_1_Conv2D__config__bias_initializer__config: {}
+@	layers_1_Conv2D__config__bias_regularizer	layers_1_Conv2D__config__bias_regularizer: None
+@	layers_1_Conv2D__config__data_format	layers_1_Conv2D__config__data_format: 'channels_last'
+@	layers_1_Conv2D__config__dilation_rate	layers_1_Conv2D__config__dilation_rate: [1, 1]
+@	layers_1_Conv2D__config__dtype	layers_1_Conv2D__config__dtype: 'float32'
+@	layers_1_Conv2D__config__filters	layers_1_Conv2D__config__filters: 64
+@	layers_1_Conv2D__config__kernel_constraint	layers_1_Conv2D__config__kernel_constraint: None
+@	layers_1_Conv2D__config__kernel_initializer	layers_1_Conv2D__config__kernel_initializer: {'class_name': 'VarianceScaling', 'config': {'scale': 1.0, 'mode': 'fan_avg', 'distribution': 'unifo
+*	layers_1_Conv2D__config__kernel_initializer__class_name	layers_1_Conv2D__config__kernel_initializer__class_name: 'VarianceScaling'
+@	layers_1_Conv2D__config__kernel_initializer__config	layers_1_Conv2D__config__kernel_initializer__config: {'scale': 1.0, 'mode': 'fan_avg', 'distribution': 'uniform', 'seed': None}
+@	layers_1_Conv2D__config__kernel_initializer__config__distribution	layers_1_Conv2D__config__kernel_initializer__config__distribution: 'uniform'
+@	layers_1_Conv2D__config__kernel_initializer__config__mode	layers_1_Conv2D__config__kernel_initializer__config__mode: 'fan_avg'
+@	layers_1_Conv2D__config__kernel_initializer__config__scale	layers_1_Conv2D__config__kernel_initializer__config__scale: 1.0
+@	layers_1_Conv2D__config__kernel_initializer__config__seed	layers_1_Conv2D__config__kernel_initializer__config__seed: None
+@	layers_1_Conv2D__config__kernel_regularizer	layers_1_Conv2D__config__kernel_regularizer: None
+@	layers_1_Conv2D__config__kernel_size	layers_1_Conv2D__config__kernel_size: [3, 3]
+*	layers_1_Conv2D__config__name	layers_1_Conv2D__config__name: 'conv2d_1'
+@	layers_1_Conv2D__config__padding	layers_1_Conv2D__config__padding: 'valid'
+@	layers_1_Conv2D__config__strides	layers_1_Conv2D__config__strides: [1, 1]
+@	layers_1_Conv2D__config__trainable	layers_1_Conv2D__config__trainable: True
+@	layers_1_Conv2D__config__use_bias	layers_1_Conv2D__config__use_bias: True
+*	layers_2_MaxPooling2D__class_name	layers_2_MaxPooling2D__class_name: 'MaxPooling2D'
+@	layers_2_MaxPooling2D__config	layers_2_MaxPooling2D__config: {'name': 'max_pooling2d_1', 'trainable': True, 'dtype': 'float32', 'pool_size': [2, 2], 'padding': '
+@	layers_2_MaxPooling2D__config__data_format	layers_2_MaxPooling2D__config__data_format: 'channels_last'
+@	layers_2_MaxPooling2D__config__dtype	layers_2_MaxPooling2D__config__dtype: 'float32'
+*	layers_2_MaxPooling2D__config__name	layers_2_MaxPooling2D__config__name: 'max_pooling2d_1'
+@	layers_2_MaxPooling2D__config__padding	layers_2_MaxPooling2D__config__padding: 'valid'
+@	layers_2_MaxPooling2D__config__pool_size	layers_2_MaxPooling2D__config__pool_size: [2, 2]
+@	layers_2_MaxPooling2D__config__strides	layers_2_MaxPooling2D__config__strides: [2, 2]
+@	layers_2_MaxPooling2D__config__trainable	layers_2_MaxPooling2D__config__trainable: True
+*	layers_3_Conv2D__class_name	layers_3_Conv2D__class_name: 'Conv2D'
+@	layers_3_Conv2D__config	layers_3_Conv2D__config: {'name': 'conv2d_2', 'trainable': True, 'dtype': 'float32', 'filters': 32, 'kernel_size': [2, 2], 's
+@	layers_3_Conv2D__config__activation	layers_3_Conv2D__config__activation: 'relu'
+@	layers_3_Conv2D__config__activity_regularizer	layers_3_Conv2D__config__activity_regularizer: None
+@	layers_3_Conv2D__config__bias_constraint	layers_3_Conv2D__config__bias_constraint: None
+@	layers_3_Conv2D__config__bias_initializer	layers_3_Conv2D__config__bias_initializer: {'class_name': 'Zeros', 'config': {}}
+*	layers_3_Conv2D__config__bias_initializer__class_name	layers_3_Conv2D__config__bias_initializer__class_name: 'Zeros'
+@	layers_3_Conv2D__config__bias_initializer__config	layers_3_Conv2D__config__bias_initializer__config: {}
+@	layers_3_Conv2D__config__bias_regularizer	layers_3_Conv2D__config__bias_regularizer: None
+@	layers_3_Conv2D__config__data_format	layers_3_Conv2D__config__data_format: 'channels_last'
+@	layers_3_Conv2D__config__dilation_rate	layers_3_Conv2D__config__dilation_rate: [1, 1]
+@	layers_3_Conv2D__config__dtype	layers_3_Conv2D__config__dtype: 'float32'
+@	layers_3_Conv2D__config__filters	layers_3_Conv2D__config__filters: 32
+@	layers_3_Conv2D__config__kernel_constraint	layers_3_Conv2D__config__kernel_constraint: None
+@	layers_3_Conv2D__config__kernel_initializer	layers_3_Conv2D__config__kernel_initializer: {'class_name': 'VarianceScaling', 'config': {'scale': 1.0, 'mode': 'fan_avg', 'distribution': 'unifo
+*	layers_3_Conv2D__config__kernel_initializer__class_name	layers_3_Conv2D__config__kernel_initializer__class_name: 'VarianceScaling'
+@	layers_3_Conv2D__config__kernel_initializer__config	layers_3_Conv2D__config__kernel_initializer__config: {'scale': 1.0, 'mode': 'fan_avg', 'distribution': 'uniform', 'seed': None}
+@	layers_3_Conv2D__config__kernel_initializer__config__distribution	layers_3_Conv2D__config__kernel_initializer__config__distribution: 'uniform'
+@	layers_3_Conv2D__config__kernel_initializer__config__mode	layers_3_Conv2D__config__kernel_initializer__config__mode: 'fan_avg'
+@	layers_3_Conv2D__config__kernel_initializer__config__scale	layers_3_Conv2D__config__kernel_initializer__config__scale: 1.0
+@	layers_3_Conv2D__config__kernel_initializer__config__seed	layers_3_Conv2D__config__kernel_initializer__config__seed: None
+@	layers_3_Conv2D__config__kernel_regularizer	layers_3_Conv2D__config__kernel_regularizer: None
+@	layers_3_Conv2D__config__kernel_size	layers_3_Conv2D__config__kernel_size: [2, 2]
+*	layers_3_Conv2D__config__name	layers_3_Conv2D__config__name: 'conv2d_2'
+@	layers_3_Conv2D__config__padding	layers_3_Conv2D__config__padding: 'valid'
+@	layers_3_Conv2D__config__strides	layers_3_Conv2D__config__strides: [1, 1]
+@	layers_3_Conv2D__config__trainable	layers_3_Conv2D__config__trainable: True
+@	layers_3_Conv2D__config__use_bias	layers_3_Conv2D__config__use_bias: True
+*	layers_4_MaxPooling2D__class_name	layers_4_MaxPooling2D__class_name: 'MaxPooling2D'
+@	layers_4_MaxPooling2D__config	layers_4_MaxPooling2D__config: {'name': 'max_pooling2d_2', 'trainable': True, 'dtype': 'float32', 'pool_size': [2, 2], 'padding': '
+@	layers_4_MaxPooling2D__config__data_format	layers_4_MaxPooling2D__config__data_format: 'channels_last'
+@	layers_4_MaxPooling2D__config__dtype	layers_4_MaxPooling2D__config__dtype: 'float32'
+*	layers_4_MaxPooling2D__config__name	layers_4_MaxPooling2D__config__name: 'max_pooling2d_2'
+@	layers_4_MaxPooling2D__config__padding	layers_4_MaxPooling2D__config__padding: 'valid'
+@	layers_4_MaxPooling2D__config__pool_size	layers_4_MaxPooling2D__config__pool_size: [2, 2]
+@	layers_4_MaxPooling2D__config__strides	layers_4_MaxPooling2D__config__strides: [2, 2]
+@	layers_4_MaxPooling2D__config__trainable	layers_4_MaxPooling2D__config__trainable: True
+*	layers_5_Flatten__class_name	layers_5_Flatten__class_name: 'Flatten'
+@	layers_5_Flatten__config	layers_5_Flatten__config: {'name': 'flatten_1', 'trainable': True, 'dtype': 'float32', 'data_format': 'channels_last'}
+@	layers_5_Flatten__config__data_format	layers_5_Flatten__config__data_format: 'channels_last'
+@	layers_5_Flatten__config__dtype	layers_5_Flatten__config__dtype: 'float32'
+*	layers_5_Flatten__config__name	layers_5_Flatten__config__name: 'flatten_1'
+@	layers_5_Flatten__config__trainable	layers_5_Flatten__config__trainable: True
+*	layers_6_Dense__class_name	layers_6_Dense__class_name: 'Dense'
+@	layers_6_Dense__config	layers_6_Dense__config: {'name': 'dense_1', 'trainable': True, 'dtype': 'float32', 'units': 10, 'activation': 'softmax', 'us
+@	layers_6_Dense__config__activation	layers_6_Dense__config__activation: 'softmax'
+@	layers_6_Dense__config__activity_regularizer	layers_6_Dense__config__activity_regularizer: None
+@	layers_6_Dense__config__bias_constraint	layers_6_Dense__config__bias_constraint: None
+@	layers_6_Dense__config__bias_initializer	layers_6_Dense__config__bias_initializer: {'class_name': 'Zeros', 'config': {}}
+*	layers_6_Dense__config__bias_initializer__class_name	layers_6_Dense__config__bias_initializer__class_name: 'Zeros'
+@	layers_6_Dense__config__bias_initializer__config	layers_6_Dense__config__bias_initializer__config: {}
+@	layers_6_Dense__config__bias_regularizer	layers_6_Dense__config__bias_regularizer: None
+@	layers_6_Dense__config__dtype	layers_6_Dense__config__dtype: 'float32'
+@	layers_6_Dense__config__kernel_constraint	layers_6_Dense__config__kernel_constraint: None
+@	layers_6_Dense__config__kernel_initializer	layers_6_Dense__config__kernel_initializer: {'class_name': 'VarianceScaling', 'config': {'scale': 1.0, 'mode': 'fan_avg', 'distribution': 'unifo
+*	layers_6_Dense__config__kernel_initializer__class_name	layers_6_Dense__config__kernel_initializer__class_name: 'VarianceScaling'
+@	layers_6_Dense__config__kernel_initializer__config	layers_6_Dense__config__kernel_initializer__config: {'scale': 1.0, 'mode': 'fan_avg', 'distribution': 'uniform', 'seed': None}
+@	layers_6_Dense__config__kernel_initializer__config__distribution	layers_6_Dense__config__kernel_initializer__config__distribution: 'uniform'
+@	layers_6_Dense__config__kernel_initializer__config__mode	layers_6_Dense__config__kernel_initializer__config__mode: 'fan_avg'
+@	layers_6_Dense__config__kernel_initializer__config__scale	layers_6_Dense__config__kernel_initializer__config__scale: 1.0
+@	layers_6_Dense__config__kernel_initializer__config__seed	layers_6_Dense__config__kernel_initializer__config__seed: None
+@	layers_6_Dense__config__kernel_regularizer	layers_6_Dense__config__kernel_regularizer: None
+*	layers_6_Dense__config__name	layers_6_Dense__config__name: 'dense_1'
+@	layers_6_Dense__config__trainable	layers_6_Dense__config__trainable: True
+@	layers_6_Dense__config__units	layers_6_Dense__config__units: 10
+@	layers_6_Dense__config__use_bias	layers_6_Dense__config__use_bias: True
+	Note:	@, params eligible for search in searchcv tool.
