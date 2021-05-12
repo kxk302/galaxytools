@@ -265,7 +265,7 @@
             <param name="save" value="nope" />
             <output name="outfile_result" file="train_test_eval03.tabular" />
         </test>
-        <!-- <test>
+        <test>
             <conditional name="experiment_schemes">
                 <param name="selected_exp_scheme" value="train_test" />
                 <param name="infile_estimator" value="fnn" ftype="zip" />
@@ -286,7 +286,7 @@
             <param name="save" value="save_weights" />
             <output name="outfile_object" file="train_test_fnn" compare="sim_size" delta="5" />
             <output name="outfile_weights" file="train_test_fnn_weights.h5" compare="sim_size" delta="5" />
-        </test> -->
+        </test> 
         <test>
             <conditional name="experiment_schemes">
                 <param name="selected_exp_scheme" value="train_test" />
